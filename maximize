@@ -1,0 +1,11 @@
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+from itertools import product
+k, m = map(int, input().split())
+#taking number of list input
+n = [list(map(int, input().split()))[1:] for _ in range(k)]
+#sqauring the elements and selecting all and making sum of all given elements
+p = map(lambda x: sum(i**2 for i in x) % m, product(*n))
+#to print ans
+print(max(p))
+
