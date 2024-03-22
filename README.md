@@ -14,4 +14,4 @@ Algorithms: Solutions for algorithmic challenges. <br/>
 Data Structures: Solutions for problems involving data structures. <br/>
 Mathematics: Solutions for mathematical challenges. <br/>
 Python: Solutions specific to Python-related challenges. <br/>
-Each directory contains subdirectories and Python files corresponding to individual problem solutions. <br/>
+Each directory contains subdirectories and Python files corresponding to individual problem solutions.
